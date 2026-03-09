@@ -118,7 +118,3 @@ Ce projet est open source et disponible sous licence MIT.
 ## 🤝 Support
 
 Pour toute question ou suggestion, n'hésitez pas à ouvrir une issue ou me contacter.
-
----
-
-Fait avec ❤️ en France
