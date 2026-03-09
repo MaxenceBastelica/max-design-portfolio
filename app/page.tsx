@@ -89,7 +89,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-10 animate-fade-in leading-relaxed">
-              Maxence Bastelica - Développeur Full Stack
+              Développeur Full Stack
               <br />
               Je conçois des applications mobiles et sites internet professionnels.
             </p>
