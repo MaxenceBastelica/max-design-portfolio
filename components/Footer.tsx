@@ -18,7 +18,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">MAX DESIGN</h3>
             <p className="text-sm leading-relaxed mb-4">
-              Création et réalisation d'applications mobiles et sites internet.
+              Création et réalisation d'applications web et sites internet.
               Développeur web passionné, créant des expériences digitales exceptionnelles.
             </p>
             <p className="text-xs text-gray-400">

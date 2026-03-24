@@ -14,7 +14,7 @@ const projects = [
     image: "/projects/chat-noir.jpg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     link: "#",
-    github: "#",
+    github: "https://github.com/MaxenceBastelica",
   },
   {
     title: "Wonder Home Conciergerie",
@@ -22,7 +22,7 @@ const projects = [
     image: "/projects/wonder-home.jpg",
     tags: ["React", "Next.js", "TypeScript"],
     link: "#",
-    github: "#",
+    github: "https://github.com/MaxenceBastelica",
   },
   {
     title: "E-Commerce Premium",
@@ -30,7 +30,7 @@ const projects = [
     image: "/projects/ecommerce.jpg",
     tags: ["Next.js", "Stripe", "Tailwind"],
     link: "#",
-    github: "#",
+    github: "https://github.com/MaxenceBastelica",
   },
 ];
 
@@ -42,8 +42,8 @@ const skills = [
   },
   {
     icon: Globe,
-    title: "Applications Mobiles",
-    description: "Développement d'applications mobiles performantes et intuitives",
+    title: "Applications Web",
+    description: "Développement d'applications web performantes et intuitives",
   },
   {
     icon: Palette,
@@ -89,13 +89,13 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up leading-tight">
               Créateur d'applications
               <br />
-              <span className="gradient-text-animated">web & mobiles</span>
+              <span className="gradient-text-animated">web sur mesure</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-10 animate-fade-in leading-relaxed">
               Développeur Full Stack
               <br />
-              Je conçois des applications mobiles et sites internet professionnels.
+              Je conçois des applications web et sites internet professionnels.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
@@ -258,18 +258,33 @@ export default function Home() {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
                 <p>
-                  Entrepreneur et développeur passionné, je crée des 
-                  applications web et mobiles qui allient esthétique moderne et performance technique.
+                  Entrepreneur et développeur passionné, je crée des
+                  applications web qui allient esthétique moderne et performance technique.
                 </p>
                 <p>
-                  Spécialisé en <strong className="text-purple-600 dark:text-purple-400">Next.js</strong>, 
-                  <strong className="text-purple-600 dark:text-purple-400"> React</strong> et 
-                  <strong className="text-purple-600 dark:text-purple-400"> TypeScript</strong>, 
-                  j'accompagne mes clients dans la création de solutions digitales innovantes adaptées à leurs besoins.
+                  Spécialisé en <strong className="text-purple-600 dark:text-purple-400">Next.js</strong>,
+                  <strong className="text-purple-600 dark:text-purple-400"> React</strong>,
+                  <strong className="text-purple-600 dark:text-purple-400"> Svelte</strong>,
+                  <strong className="text-purple-600 dark:text-purple-400"> TypeScript</strong> et
+                  <strong className="text-purple-600 dark:text-purple-400"> Tailwind CSS</strong> côté front,
+                  je soigne également le <strong className="text-purple-600 dark:text-purple-400">SEO</strong>,
+                  l'<strong className="text-purple-600 dark:text-purple-400">accessibilité (A11Y)</strong> et
+                  le design avec <strong className="text-purple-600 dark:text-purple-400">Figma</strong>.
+                  J'accompagne mes clients dans la création de solutions digitales innovantes adaptées à leurs besoins.
+                </p>
+                <p>
+                  Côté back, je conçois des APIs robustes avec <strong className="text-purple-600 dark:text-purple-400">Node.js</strong>,
+                  <strong className="text-purple-600 dark:text-purple-400"> Express.js</strong> et les <strong className="text-purple-600 dark:text-purple-400">Next.js API Routes</strong>,
+                  avec une gestion sécurisée de l'authentification et des accès.
+                  J'utilise <strong className="text-purple-600 dark:text-purple-400">PostgreSQL</strong> comme base de données et
+                  <strong className="text-purple-600 dark:text-purple-400"> Sequelize</strong> comme ORM.
+                  Je déploie mes applications via <strong className="text-purple-600 dark:text-purple-400">Docker</strong>,
+                  <strong className="text-purple-600 dark:text-purple-400"> Nginx</strong> et
+                  <strong className="text-purple-600 dark:text-purple-400"> PM2</strong>.
                 </p>
                 <p>
                   <strong className="text-purple-600 dark:text-purple-400">MAX DESIGN</strong> propose une expertise complète : 
-                  de la conception à la réalisation de vos projets web et mobiles, avec un focus sur la qualité et l'expérience utilisateur.
+                  de la conception à la réalisation de vos projets web, avec un focus sur la qualité et l'expérience utilisateur.
                 </p>
               </div>
 
